@@ -140,32 +140,41 @@ Berikut adalah penjelasan widget yang digunakan dalam aplikasi.
 **1. Widget Struktur Dasar**
 
 - MaterialApp
+
 Digunakan sebagai root utama aplikasi. Fungsinya adalah untuk mngatur tema aplikasi, mengatur halaman awal (home), dan menghilangkan debug banner. Widget ini digunakan pada main.dart.
 
 - Scaffold
+
 Dapat digunakan sebagai kerangka dasar setiap halaman. Fungsi dari Scaffold sendiri antara lain adalah untuk menyediakan struktur seperti AppBar, body, background, serta mengatur tata letak utama halaman. Scaffold digunakan pada Home Page, Input Data Page, Rekap Data Page, dan Student Card
 
 - AppBar
+
 AppBar dapat digunakan sebagai bagian atas halaman. Fungsinya adalah untuk menampilkan judul halaman, serta memberikan identitas tiap page. AppBar digunakan pada Input Data Page dan Rekap Data Page.
 
 **2. Widget Layout (Tata Letak)**
 
 - Column
+
 FUngsi Column adalah untuk menyusun widget secara vertikal. Contohnya digunakan untuk menyusun form input dan tombol di Input Data Page.
 
 - Row
+
 Row digunakan untuk menyusun widget secara horizontal. Contohnya terdapat pada Student Card unutk menampilkan label dan isi data secara sejajar.
 
 - Container
+
 Container adalah widget yang digunakan untuk memberi padding, memberi warna, memberi dekorasi, serta mengatur ukuran. Penggunaannya hampir disemua halaman untuk desain tmpilan.
 
 - Center
+
 Center dapat memposisikan widget di tengah layar dan center ini digunakan pada Home Page dan Student Card.
 
 - Stack
+
 Stack adalah widget yang digunakan untuk menumpuk widget di atas widget lain. Pada aplikasi ini digunakan pada Student Card untuk menampilkan kartu dan menempatkan tombol "Back" di atas kartu.
 
 - Positioned
+
 Widget ini digunakan bersama dengan Stack untuk menentukan posisi widget secara spesifik dan digunakan untuk tombol kembali di Student Card.
 
 **3. Widget Form dan Input**
