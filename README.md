@@ -179,6 +179,74 @@ Widget ini digunakan bersama dengan Stack untuk menentukan posisi widget secara 
 
 **3. Widget Form dan Input**
 
+- Form
+
+Digunakan untuk membungkus seluruh input field agar bisa divalidasi. Pada aplikasi ini digunakan di Input Data Page.
+
+- GlobalKey <FormState>
+
+Widget ini digunakan untuk mengontrol dan memvalidasi Form. Fungsinya adalah untuk mengecek apakah semua field valid sebelum menyimpan.
+
+- TextFormField
+
+Widget TextFormField digunakan untuk input data teks seperti Nama, Alamat, No HP, Sekolah. Kelebihannya adalah bisa diberi validasi dan bisa dikontrol menggunakan controller.
+
+- TextEditingController
+
+Widget Text Editing Controller adalah widget yang digunakan untuk mengontrol dan mengambil nilai dari Text Form Field.
+
+- DropdownButtonFormField
+
+Widget ini digunakan untuk input data pilihan seperti Kelas dan Jam Bimbel. Kelebihannya adalah menghindari kesalahan input manual dan lebih terstruktur.
+
+- ElevatedButton
+
+Widget yang digunakan untuk tombol utama seperti tombol "Simpan" pada Input Data Page.
+
+**4. Widget Tampilan Data**
+
+- ListView.builder
+
+Digunakan untuk menampilkan daftar data siswa secara dinamis. Widget ini digunakan pada Rekap Data Page. Fungsinya adalah untuk menampilkan data berdasarkan jumlah item dalam list dan lebih efisien untuk data banyak.
+
+- Card
+
+Digunakan untuk membungkus setiap item data agar terlihat rapi dan terpisah.
+
+- ListTile
+
+WIdget ini digunakan untuk membuat tampilan list yang memiliki Title, Subtitle, dan Trailing icon. Widget ini digunakan pada Rekap Data Page.
+
+- CircleAvatar
+
+Widget Circle Avatar digunakan untuk Icon logo di HomePage, Icon profil di Student Card, dan Icon di tombol menu.
+
+- Icon & IconButton
+
+DIgunakan untuk Tombol view, tombol edit, tombol delete, dan tombol back.
+
+- Divider
+
+Divider adalah widget yang digunakan untuk memberi garis pemisah pada Student card.
+
+**5. Widget Navigasi**
+
+- Navigator.push()
+
+Widget ini digunakan untuk berpindah halaman. Contoh penggunaannya di aplikasi antara lain ialah dari Home Page ke Input Data Page lalu dari Rekap Data Page ke Student Card.
+
+- Navigator.pop()
+
+DIgunakan untuk kembali ke halaman sebelumnya.
+
+**6. Widget Feedback ke User**
+
+- SnackBar
+
+SnackBar adalah widgetyang digunakan untuk memberikan notifikasi singkat seperti "Data berhasil disimpan" pada Input Data Page
+
+
+
 
 
 
