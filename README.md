@@ -11,7 +11,7 @@ Sistem Informasi '2024
 
 <img width="339" height="290" alt="image" src="https://github.com/user-attachments/assets/17200a3a-124a-4c10-827f-6a22298f6415" />
 
-Intellecta Bimbel adalah aplikasi manajemen data siswa SMA kelas 10, 11, dan 12 yang berbasis Flutter untuk bimbingan belajar dan dirancang agar dapat membantu proses administrasi agar lebih terstruktur, efisien, dan mudah dikelola.
+Intellecta Bimbel adalah aplikasi manajemen data siswa SMA kelas 10, 11, dan 12 yang berbasis Flutter untuk bimbingan belajar mata pelajaran matematika, bahasa Indonesia, dan informatika yang dirancang agar dapat membantu proses administrasi agar lebih terstruktur, efisien, dan mudah dikelola.
 
 Aplikasi ini dapat digunakan untuk menginput data siswa berdasarkan mata pelajaran, melihat hasil inputan, mengedit dan menghapus data yang telah diinput.
 
@@ -243,11 +243,4 @@ DIgunakan untuk kembali ke halaman sebelumnya.
 
 - SnackBar
 
-SnackBar adalah widgetyang digunakan untuk memberikan notifikasi singkat seperti "Data berhasil disimpan" pada Input Data Page
-
-
-
-
-
-
-
+SnackBar adalah widgetyang digunakan untuk memberikan notifikasi singkat seperti "Data berhasil disimpan" pada Input Data Page.
